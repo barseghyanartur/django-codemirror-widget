@@ -17,6 +17,7 @@ django-codemirror-widget
     :alt: Python versions
 
 `Django <https://www.djangoproject.com>`_ form widget library for using `CodeMirror <http://codemirror.net/>`_ on ``Textarea``.
+The goal of this forked version is just to add compativility with Django > 1.11
 
 Installation
 -------------
