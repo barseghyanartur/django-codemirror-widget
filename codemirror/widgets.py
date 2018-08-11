@@ -159,7 +159,7 @@ class CodeMirrorTextarea(forms.Textarea):
             config.items(),
             [('mode', mode), ('theme', theme)])))
 
-    def render(self, name, value, attrs=None):
+    def render(self, name, value, attrs=None, **kwargs):
         u"""Render CodeMirrorTextarea"""
         if self.js_var_format is not None:
             js_var_bit = 'var %s = ' % (self.js_var_format % name)
